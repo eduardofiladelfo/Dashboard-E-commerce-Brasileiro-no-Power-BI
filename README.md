@@ -20,6 +20,12 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 Talvez seja necessário criar uma conta do Kaggle para acessar esse conjunto de dados.
 
+<div align="center">
+  
+![Gravando 2024-11-18 191708](https://github.com/user-attachments/assets/dae2b6ce-d06f-4f09-bce7-86fa01e2cd33)
+
+</div>
+
 ### Ferramentas
 
 - Power Bi: Importação dos arquivos em CSV e visualização dos dashboards.
