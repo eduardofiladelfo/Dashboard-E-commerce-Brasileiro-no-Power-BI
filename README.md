@@ -12,8 +12,8 @@ Este projeto visa promover insights detalhados sobre a performance de vendas e p
 
 Além disso, examinamos a satisfação dos clientes, classificada de 1 a 5 estrelas, observando a frequência de comentários para cada nota e o total de feedbacks recebidos. Este projeto proporciona uma visão abrangente e prática para apoiar estratégias de marketing, operações e atendimento ao cliente, com insights para decisões baseadas em dados.
   
-  ![Dashboard](imagens/Dashboard_Interativo.mp4)
-  
+![Dashboard Interativo (MP4)](imagens/Dashboard_Interativo.mp4)
+
 ### Dataset
 
 O conjunto de dados usado neste projeto está disponível publicamente no Kaggle:
