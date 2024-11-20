@@ -211,7 +211,7 @@ media_de_avaliacoes = AVERAGE(
 Os resultados da análise são resumidos da seguinte forma: 
 
 #### Vendas
-1.	Mês com a maior quantidade de vendas foi em novembro de 2017. Em novembro ocorre a Black Friday, logo, os clientes aproveitam o mês para consumir uma quantidade maior de produtos.
+1.	O mês com a maior quantidade de vendas foi em novembro de 2017. Em novembro ocorre a Black Friday, logo, os clientes aproveitam o mês para consumir uma quantidade maior de produtos.
 2.	No top 5, podemos notar que beleza e saúde dominou o top 1 dentro de todo período. Das possíveis causas podem ser citadas é a influência das mídias sociais e influenciadores digitais, que promovem esses produtos e reforçam tendências. Pode ser citado também a conscientização sobre autocuidado e bem estar, que incentiva o consumo desses produtos.
 3.	Das transações que foram canceladas, o cartão de crédito é a que teve o maior valor monetário em cancelamentos. Dentre as razões podemos citar o limite insuficiente, problemas com verificação de segurança, a compra por impulso ou arrependimento ou até mesmo suspeita de fraude por conta das empresas, é comum as compras serem canceladas para proteger tanto o cliente com o varejista.
 4.	Os Estados que tiveram a maior quantidade de vendas foram os que possuem a maior densidade populacional. Como por exemplo São Paulo, Rio de Janeiro e Minas Gerais. 
