@@ -28,7 +28,7 @@ Talvez seja necessário criar uma conta do Kaggle para acessar esse conjunto de 
 
 ### Ferramentas
 
-- Power Bi: Importação dos arquivos em CSV e visualização dos dashboards.
+- Power BI: Importação dos arquivos em CSV e visualização dos dashboards.
 - Figma: Criação do design visual do indicador, permitindo uma apresentação mais clara dos insights obtidos na análise.
 
 ### Dados Utilizados
@@ -37,7 +37,7 @@ Talvez seja necessário criar uma conta do Kaggle para acessar esse conjunto de 
 - dLocal: Localização onde as vendas ocorreram.
 - dProdutos: Lista todos os produtos que foram vendidos durante o período, segmentados por ID, categoria e cubagem.
 - dVendedor: Tabela dimensão com o cadastro de todos os vendedores, categorizados pelo ID, CEP e Estado.
-- fPagamentos: Tabela fato com todas as transações ocorridas, dado o tipo de pagamento (cartão de crédito, débito, boleto ou voucher.
+- fPagamentos: Tabela fato com todas as transações ocorridas, dado o tipo de pagamento (cartão de crédito, débito, boleto ou voucher).
 - fPedidos: Todos os pedidos dos clientes, segmentados pelo ID do pedido, o vendedor, o status do pedido, hora da compra, previsão de entrega, etc.
 - fReviews: Mostra os reviews dos clientes ao longo do período, assim como a nota recebida pelo pedido, o título do review e o comentário.
 - fVendas: Tabela fato que mostra o detalhamento dos produtos que foram feitos no pedido, incluindo o valor da mercadoria, a quantidade e o valor do frete. 
@@ -46,7 +46,7 @@ Talvez seja necessário criar uma conta do Kaggle para acessar esse conjunto de 
 #### Aba Vendas
 - Receita bruta por período: Exibe o gráfico de linhas de receita bruta ao longo do período.
 - Receita bruta por UF: Gráfico de mapa exibindo a receita bruta segmentada por Estado.
-- Receita Total: Cartão de receita total que mostra a receita de todo o período dos anos de 2016 a 2018. A sparkline ao lado mostra de forma simples e compacta a variação da receita bruta ao longo dos anos, onde o marcador em vermelho mostra o ano com a menor quantidade de vendas e a verde mostra a maior quantidade de vendas.
+- Receita Total: Cartão de receita total que mostra a receita de todo o período dos anos de 2016 a 2018. A sparkline ao lado mostra de forma simples a variação da receita bruta ao longo dos anos, onde o marcador em vermelho mostra o ano com a menor quantidade de vendas e a verde mostra a maior quantidade de vendas.
 - Top 5 categorias mais vendidas: Gráfico de barras clusterizado exibindo o top 5 das categorias mais vendidas ao longo dos anos.
 - Valor dos pedidos cancelados: Cartão com valor monetário do cancelamento dos clientes. A sparkline ao lado mostra de forma simples e compacta a variação do valor de cancelamento dos pedidos ao longo do período, onde o marcador em vermelho mostra o ano com a menor valor de cancelamento e a verde mostra o maior valor de cancelamentos.
 - Transações canceladas por categoria: Valor monetário em reais do total de cada pedido cancelado por categoria.
@@ -129,11 +129,12 @@ A EDA envolveu a exploração dos dados de vendas para responder perguntas-chave
 5.	Qual o valor total da taxa de cancelamento?
 6.	Qual meio de pagamento houve maior taxa de cancelamento?
 7.	Qual a receita por vendedor?
+
 Também houve EDA para a exploração dos dados dos Reviews para responder perguntas-chave, como:
 1.	Qual a média de avaliação dos meses do longo dos anos?
 2.	Dos feedbacks negativos, quais foram os principais problemas encontrados?
 3.	Qual a média global das avaliações do período?
-4.	Qual a porcentagem e a quantidade de pedidos
+4.	Qual a porcentagem e a quantidade de pedidos?
    
 ### Análise dos dados
 
@@ -219,7 +220,7 @@ Os resultados da análise são resumidos da seguinte forma:
 1.	Os clientes tiveram uma tendência de comentarem quando a nota é 5. Isso pode ocorrer porque, quando há satisfação deles com o produto possuem mais motivação para comentar sua experiência positiva. Quando têm uma experiência negativa, podem levar a achar que o problema não será resolvido ou não querem investir seu tempo com um feedback.
 2.	Podemos notar também que os clientes que tiveram experiências extremas (que deram notas muito boas ou muito ruins) foram mais propensos a deixar avaliações, que pode ser visto na quantidade de feedbacks para as notas 1 e 5.
 3.	A nota 4,09 indica que a experiência agrada a maioria dos clientes, mas não alcança um nível excelente. Ainda podem existir oportunidades de melhoria. Esta nota sugere que há avaliações extremas, tanto a nota 5 como 1 ou 2.
-4.	A word cloud das notas que vão de 1 até 3 mostra padrões nos feedback dos clientes em relação aos produtos, podemos notar que alguns produtos chegaram avariados, vieram diferentes do pedido, com defeitos, falsificados e alguns foram enviados de forma incompletas.
+4.	A word cloud das notas que vão de 1 até 3 mostram padrões nos feedback dos clientes em relação aos produtos, podemos notar que alguns produtos chegaram avariados, vieram diferentes do pedido, com defeitos, falsificados e alguns foram enviados de forma incompletas.
 
 ### Recomendações
 Baseado na análise, recomendamos seguir as seguintes ações:
@@ -230,6 +231,7 @@ Baseado na análise, recomendamos seguir as seguintes ações:
 - Para as notas que foram baixas, criar um feedback de perguntas que são guiadas e personalizadas de forma objetiva, como por exemplo: “O que você gostaria que fosse diferente?” isso induz o cliente a deixar um feedback específico sobre o que são atendeu às expectativas.
 - Após o cliente avaliar com uma nota baixa, agradecer o feedback e pedir detalhamento do que foi ocorrido. Esse contato incentiva mais clientes a detalharem seus problemas. 
 - Incentivar também o feedback dos clientes neutros a comentarem podem oferecer uma visão mais equilibrada e detalhada sobre a experiência média.
+
 ### Limitações
 A base de dados abrange o período de 2016 a 2018, com dados completos para todos os meses de 2017, enquanto os demais anos têm informações parciais.
 
